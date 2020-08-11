@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
 */
-int main(int ac, char **av, char **env)
+int main(int ac __attribute__((unused)), char **av __attribute__((unused)), char **env)
 {
 	unsigned int i;
 
@@ -15,5 +15,6 @@ int main(int ac, char **av, char **env)
 		printf("%s\n", env[i]);
 		i++;
 	}
+
 	return (0);
 }
