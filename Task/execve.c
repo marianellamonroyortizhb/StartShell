@@ -4,25 +4,30 @@
 #include <stdlib.h> /* exit */
 #include <sys/types.h>
 #define NUM_CHILD 5
+
 int main (void)
 {
 	pid_t pidC;
 	int i;
-	int status;
+	int status;  
+
+	char *argv2[] = {"/bin/ls", "-l", "/tmp/", NULL};
 
 	for(i = 0; i < NUM_CHILD; i++)
 	{
 		pidC = fork();
-				
+		
 		if(pidC > 0)
 		{
+			wait(&status);
+			printf("Se está ejecutando el padre\n");
 			continue;
-			printf("Hijo No. %d", i);
 		}
 
 		else if(pidC == 0)
 		{
 			printf("Se está ejecutando el hijo No. %d, con PID = %d\n", i, getpid());
+			execv("./ls_l_tmp", argv2);
 			exit(10); /* exito */
 		}
 		else
@@ -30,15 +35,10 @@ int main (void)
 			printf("Se produjo un error al crear el hijo\n");
 			exit(99); /* error */
 		}
-	}
-	for (i = 0; i < NUM_CHILD; i++)
-	{
-		pidC = wait(&status);
-		printf("Padre: PID = %d, Hijo PID = %d. Estado = %d\n", getpid(), pidC, WEXITSTATUS(status));
-
+		
 	}
 	while(1)
 	{
-		sleep(30);
+		sleep(50);
 	}
 }
