@@ -15,6 +15,4 @@ The system call _fork_ creates a new child process, almost identical to the pare
 
 
 ## Authors
-* **Carlos Alberto Acero** - [kbetoacero](https://github.com/kbetoacero)
-
 * **Marianella Monroy Ortiz** - [marianellamonroyortizhb](https://github.com/marianellamonroyortizhb)

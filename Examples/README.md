@@ -10,6 +10,4 @@
 
 
 ## Authors
-* **Carlos Alberto Acero** - [kbetoacero](https://github.com/kbetoacero)
-
 * **Marianella Monroy Ortiz** - [marianellamonroyortizhb](https://github.com/marianellamonroyortizhb)

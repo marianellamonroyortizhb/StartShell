@@ -13,6 +13,4 @@ This repository has been created with the objective of preserving the exercises 
 * **Examples**: Adapted examples from other sources and tutorials.
 
 ## Authors
-* **Carlos Alberto Acero** - [kbetoacero](https://github.com/kbetoacero)
-
 * **Marianella Monroy Ortiz** - [marianellamonroyortizhb](https://github.com/marianellamonroyortizhb)
