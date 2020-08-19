@@ -1,8 +1,7 @@
-
 <p align="center">
-  <img src="https://i.ibb.co/c2FgqQv/Black-and-White-Gamer-Hacks-or-Reviews-Gaming-Youtube-Video-Intro-2-1-min.gif">
+  <img src="https://i.ibb.co/LYq5RHP/ezgif-com-gif-maker-2.gif">
 </p>
-
+###
 # StartShell :shell:
 ## 
 This repository has been created with the objective of preserving the exercises proposed in the guide [Everything you need to know to start coding your own shell](https://intranet.hbtn.io/concepts/64). These were made in preparation for the project [0x16. C - Simple Shell](https://intranet.hbtn.io/projects/235).
