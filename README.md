@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://i.ibb.co/9rrBrq6/Shell.gif">
+  <img src="https://i.ibb.co/c2FgqQv/Black-and-White-Gamer-Hacks-or-Reviews-Gaming-Youtube-Video-Intro-2-1-min.gif">
 </p>
 
 # StartShell :shell:
